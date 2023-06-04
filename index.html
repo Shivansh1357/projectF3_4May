@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Test /F3_May</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div id="current-image-container">
+
+    </div>
+    <div id="main">
+        <h3>Search for a picture of the day</h3>
+        <div id="search-form" >
+            <label for="for date">select a date</label>
+            <input id="search-input" type="date">
+            <button id="button" onclick="getImageOfTheDay()" type="submit">Search</button>
+        </div>
+    </div>
+
+    <ul id="search-history">
+        <h2>Previous Searches</h2>
+        <!-- Past searches will be displayed here -->
+    </ul>
+
+    <script src="./script.js"></script>
+</body>
+</html>

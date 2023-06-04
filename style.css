@@ -1,0 +1,13 @@
+/* #current-image-container{
+height: 400px;
+width: 500px;
+border: 1px solid red;
+} */
+
+img{
+    width: 500px;
+    height: 300px;
+}
+#search-history{
+    color: rgb(101, 16, 206);
+}
